@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WebSource</string>
+    <string name="jenis_web">Pilih type address</string>
+
+    <string-array name="web_array">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+
+</resources>
