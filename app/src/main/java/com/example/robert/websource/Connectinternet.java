@@ -69,7 +69,7 @@ public class Connectinternet extends AsyncTask<String,Void,String> {
             MainActivity.textresult.setText(s);
         }
         else{
-            MainActivity.textresult.setText("Tidak Ditemukan Kode Web");
+            MainActivity.textresult.setText("Web source not found");
         }
     }
 }
