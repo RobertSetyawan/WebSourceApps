@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         else{
-            Toast.makeText(MainActivity.this, "Not Connected", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Check Your Internet Connection and Try Again", Toast.LENGTH_SHORT).show();
         }
         InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(getsource.getWindowToken(), InputMethodManager.RESULT_UNCHANGED_SHOWN);
